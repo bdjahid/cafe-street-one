@@ -25,7 +25,36 @@
 .width {
   width: 1170px;
   height: 370px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
+}
+/* about section */
+.bg-img {
+  background-color: #f6ebda;
+  width: 1441px;
+  height: 484px;
+}
+.d-center {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.about {
+  width: 478px;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  width: 142px;
+  height: 38px;
+  border-radius: 33px;
+  padding: 5px;
+  background-color: #2f2105;
+  color: #ffffff;
+}
+.img {
+  width: 400px;
+  height: 500px;
+  margin-top: -100px;
 }
 /* menu */
 .menu {
