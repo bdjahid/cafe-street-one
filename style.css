@@ -1,3 +1,75 @@
+/* menu */
+.menu {
+  width: 1148px;
+  height: 895px;
+  margin: 10px auto;
+}
+.flex-size {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.menu .title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 4%;
+}
+.card {
+  width: 343px;
+  height: 373px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 5px rgb(241, 240, 238);
+}
+.rating {
+  width: 64px;
+  height: 25px;
+  background-color: rgb(248, 244, 240);
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 4%;
+  border-radius: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 25px;
+}
+.icon {
+  margin-left: 5px;
+}
+.center {
+  text-align: center;
+}
+img {
+  width: 304px;
+  height: 224px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.card-des {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 281px;
+  height: 85px;
+  border-radius: 64px;
+  margin-left: 28px;
+}
+.round {
+  width: 22px;
+  height: 17px;
+  background-color: chocolate;
+  padding: 10px;
+  border-radius: 64px;
+  text-align: center;
+}
+/* footer */
 .footer {
   background-image: url(./images/bgfoter.jpg);
   background-repeat: no-repeat;
@@ -20,16 +92,20 @@
   color: #ffffff;
 }
 .btn-subscribe {
-  margin-left: -90px;
+  margin-left: -150px;
+  color: #ffffff;
   border: none;
-  background-color: #ffffff;
+  background-color: #2f2105;
+  border-radius: 33px;
+  height: 44px;
+  width: 138px;
 }
 
 .footer-input {
   border: none;
-  height: 34px;
+  height: 46px;
   width: 386px;
-  border-radius: 32px;
+  border-radius: 33px;
   padding-left: 1rem;
 }
 /* footer ends here */
